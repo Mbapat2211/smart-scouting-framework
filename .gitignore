@@ -1,0 +1,32 @@
+# .gitignore for Smart-Scouting-Framework
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (optional: keep if you want others to see the data, 
+# but usually large raw datasets are ignored)
+# *.csv
+# *.xlsx
+
+# Environment and virtualenv
+env/
+venv/
+.env
+.venv
+bin/
+lib/
+share/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
